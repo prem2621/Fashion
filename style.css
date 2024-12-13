@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&family=Roboto&display=swap');
+
+:root{
+    --lg-font: 'kaisei Tokumin',serif;
+    --sm-font: 'Poppins',sans-serif;
+    --pink  :#345de5;
+}
+body{
+    font-family: var(--sm-font);
+    overflow-y: scroll;
+}
+
+.badge{
+    background-color: var(--pink) !important;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85) !important;
+    border-radius: 25px;
+    padding: 10px 28px;
+    border: 1px solid rgb(85, 85, 85);
+    transition: .5s ;
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+    box-shadow: 5px 5px 10px rgba(29, 28, 26, .5);
+    color: white !important;
+    font-weight: 600;
+}
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand img{
+   width: 40px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink) !important;
+}
+.nav-item:hover{
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.05) ;
+}
+
+
+/***************************************************************** header *********************************************************************/
+
+#header{
+    background: url(./images/banner-img-1.jpg) top/cover no-repeat;
+    
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #fff !important;
+}
+.carousel-item .btn:hover{
+    color: white !important;
+    border: var(--pink) !important;
+}
+
+/***************************************************************** Collection *********************************************************************/
+
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height:50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: var(--pink) !important;
+    color: #fff !important;
+    border-color: var(--pink) !important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/***************************************************************** Special *********************************************************************/
+
+.special-img span{
+    top:20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px !important;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    transform: scale(1.2);
+}
+
+/***************************************************************** Blogs *********************************************************************/
+
+#offers{
+    background: url(images/offer_img.jpg)top/cover no-repeat;
+}
+#offers .row{
+    min-height: 100vh;
+}
+.offers-content span{
+    font-size: 28px;
+}
+.offers-content h2{
+    font-size: 60px;font-family: var(--lg-font);
+}
+.offers-content .btn{
+  border-color: transparent !important;
+}
+
+
+#about{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+#about img{
+    width: 100%;
+    height: 100%;
+}
+#about{
+    font-family: var(--sm-font);
+}
+
+
+/***************** NewsLetter ******************/
+
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .btn{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover{
+    background-color: black !important;
+    color: #fff;
+    border-color: black !important;
+}
+
+/***************** Footer ******************/
+
+footer .brand,h5{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer p,li,a{
+    color: #ffffffa6 !important;
+    font-family: var(--sm-font);
+}
+footer span{
+    font-family: var(--sm-font);
+    color: #ffffff86;
+}
+footer a{
+    transition: color .3s ease;
+}
+footer a:hover{
+    color: var(--pink) !important;
+}
