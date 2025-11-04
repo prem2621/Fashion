@@ -8,9 +8,7 @@
 Trend Fashion is a responsive, frontend-only fashion website built using **HTML**, **Bootstrap**, and a bit of **JavaScript**. I designed this project using Bootstrap components and custom JS — featuring clean layouts, product cards, filters, and a carousel on the home page.
 
 From the very beginning, I focused on a smooth UI/UX and built it with a simple yet elegant responsive grid system. It’s a perfect portfolio project that showcases frontend fundamentals and Bootstrap proficiency.
-
----
-
+ 
 ## 🎯 Key Features  
 
 * ✅ Responsive layout using Bootstrap grid (col-sm, col-md, col-lg)
@@ -22,30 +20,21 @@ From the very beginning, I focused on a smooth UI/UX and built it with a simple 
 * ✅ **Popular of the year** showcase
 * ✅ Navbar + secondary top navbar (used two navbar components) — fully responsive
 * ✅ Footer with quick links and social icons
-
----
-
+ 
 ## ✨ Tech Stack / Tools
 
 * **HTML5** — semantic markup
 * **Bootstrap 5** — layout, grid, responsive utilities, cards, navbar, buttons
 * **Vanilla JavaScript** — small interactive bits (carousel init, filter buttons)
 * **Netlify** — deployed live site
-
----
-
-## 🗂️ Layout & Components (Structure)
  
-
 ## ✍️ How I implemented important pieces
 
 * **Carousel:** Bootstrap carousel with indicators and controls. Minor JS to pause/auto-play customization.
 * **Collection filters:** Buttons have `data-filter` attributes and JS toggles classes (`.d-none` / `show`) to filter items without re-rendering.
 * **Cards & Grid:** Used Bootstrap's card components + grid classes (`col-sm-6 col-md-4 col-lg-3`) to keep the layout fluid across devices.
 * **Two navbars:** Implemented a slim top navbar for quick links and a main navbar below it. Collapses into a hamburger menu on mobile.
-
----
-
+ 
 ## 📸 Screenshots
 
 ### 🏠 Home Page
