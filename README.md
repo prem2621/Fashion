@@ -2,9 +2,7 @@
 
 - **Live:** [https://trend-fashion.netlify.app/](https://trend-fashion.netlify.app/)
 - **Built with:** HTML, Bootstrap, Vanilla JavaScript
-
----
-
+ 
 ## 🔥 Project Overview
 
 Trend Fashion is a responsive, frontend-only fashion website built using **HTML**, **Bootstrap**, and a bit of **JavaScript**. I designed this project using Bootstrap components and custom JS — featuring clean layouts, product cards, filters, and a carousel on the home page.
