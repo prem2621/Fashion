@@ -1,7 +1,7 @@
 # Trend Fashion 👗✨
 
-**Live:** [https://trend-fashion.netlify.app/](https://trend-fashion.netlify.app/)
-**Built with:** HTML, Bootstrap, Vanilla JavaScript
+- **Live:** [https://trend-fashion.netlify.app/](https://trend-fashion.netlify.app/)
+- **Built with:** HTML, Bootstrap, Vanilla JavaScript
 
 ---
 
